@@ -6,3 +6,4 @@ backend/node_modules/
 backend/node_modules/
 backend/tmp/
 backend/tmp/
+"backend/.env" 
