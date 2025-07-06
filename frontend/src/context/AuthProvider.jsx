@@ -16,7 +16,8 @@ export const AuthProvider = ({ children }) => {
         console.log(token);
         if (token) {
           const { data } = await axios.get(
-            "http://localhost:4001/api/users/my-profile",
+            // "http://localhost:4001/api/users/my-profile",
+            "https://blog-app-backend-five-rust.vercel.app/api/users/my-profile",
             {
               withCredentials: true,
               headers: {
@@ -36,7 +37,8 @@ export const AuthProvider = ({ children }) => {
     const fetchBlogs = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:4001/api/blogs/all-blogs",
+          // "http://localhost:4001/api/blogs/all-blogs",
+          "https://blog-app-backend-five-rust.vercel.app/api/blogs/all-blogs",
           { withCredentials: true }
         );
         console.log(data);
