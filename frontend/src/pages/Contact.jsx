@@ -14,7 +14,7 @@ function Contact() {
 
   const onSubmit = async (data) => {
     const userInfo = {
-      access_key: "7f2ffd62-d141-41c5-84e1-237640e539a5",
+      access_key: "c94c349c-375b-4a95-be14-844b878f46dc",
       name: data.username,
       email: data.email,
       message: data.message,
@@ -99,15 +99,15 @@ function Contact() {
               <ul className="space-y-4">
                 <li className="flex items-center space-x-2">
                   <FaPhone className="text-red-500" />
-                  <span>+91 9876543210</span>
+                  <span>+91 9080131434</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaEnvelope className="text-pink-500" />
-                  <span>help@learncoding.com</span>
+                  <span>baraniarumugam09@gmail.com</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <FaMapMarkerAlt className="text-green-500" />
-                  <span>Delhi, NCR, India</span>
+                  <span>Coimbatore,TamilNadu</span>
                 </li>
               </ul>
             </div>
