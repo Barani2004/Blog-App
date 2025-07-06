@@ -4,7 +4,7 @@ A full-stack Blog Application built with a **MERN stack (MongoDB, Express.js, Re
 
 ## 🚀 Features
 
-- User authentication (Login/Register)
+- User authentication  (Login/Register)
 - Create, read, update, delete blog posts
 - RESTful API
 - MongoDB Atlas for cloud database
